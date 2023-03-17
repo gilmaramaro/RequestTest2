@@ -17,6 +17,7 @@
 		75C3560C29C4DFBB002EF4EC /* RequestTest2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C3560B29C4DFBB002EF4EC /* RequestTest2Tests.swift */; };
 		75C3561629C4DFBB002EF4EC /* RequestTest2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C3561529C4DFBB002EF4EC /* RequestTest2UITests.swift */; };
 		75C3561829C4DFBB002EF4EC /* RequestTest2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C3561729C4DFBB002EF4EC /* RequestTest2UITestsLaunchTests.swift */; };
+		75C3562529C4E64F002EF4EC /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C3562429C4E64F002EF4EC /* Pizza.swift */; };
 		836337B25D06C53B27EBD560 /* Pods_RequestTest2_RequestTest2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A660BB40F371D8DFC3BDF91D /* Pods_RequestTest2_RequestTest2UITests.framework */; };
 		EFEF4BB5D10AE9957B85F3FD /* Pods_RequestTest2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16617F9C86E27AFB0FE88DD4 /* Pods_RequestTest2Tests.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		75C3561129C4DFBB002EF4EC /* RequestTest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RequestTest2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C3561529C4DFBB002EF4EC /* RequestTest2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTest2UITests.swift; sourceTree = "<group>"; };
 		75C3561729C4DFBB002EF4EC /* RequestTest2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTest2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75C3562429C4E64F002EF4EC /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		8F3FB6619322CDCE20EA081C /* Pods-RequestTest2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestTest2Tests.debug.xcconfig"; path = "Target Support Files/Pods-RequestTest2Tests/Pods-RequestTest2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A660BB40F371D8DFC3BDF91D /* Pods_RequestTest2_RequestTest2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RequestTest2_RequestTest2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEAFDE512980A35833F7FBE1 /* Pods-RequestTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestTest2.release.xcconfig"; path = "Target Support Files/Pods-RequestTest2/Pods-RequestTest2.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +103,6 @@
 				8F3FB6619322CDCE20EA081C /* Pods-RequestTest2Tests.debug.xcconfig */,
 				C84B2602C2EE3721466EDE8E /* Pods-RequestTest2Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,6 +144,7 @@
 				75C355F429C4DFBA002EF4EC /* AppDelegate.swift */,
 				75C355F629C4DFBA002EF4EC /* SceneDelegate.swift */,
 				75C355F829C4DFBA002EF4EC /* ViewController.swift */,
+				75C3562429C4E64F002EF4EC /* Pizza.swift */,
 				75C355FA29C4DFBA002EF4EC /* Main.storyboard */,
 				75C355FD29C4DFBB002EF4EC /* Assets.xcassets */,
 				75C355FF29C4DFBB002EF4EC /* LaunchScreen.storyboard */,
@@ -407,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C3562529C4E64F002EF4EC /* Pizza.swift in Sources */,
 				75C355F929C4DFBA002EF4EC /* ViewController.swift in Sources */,
 				75C355F529C4DFBA002EF4EC /* AppDelegate.swift in Sources */,
 				75C355F729C4DFBA002EF4EC /* SceneDelegate.swift in Sources */,
