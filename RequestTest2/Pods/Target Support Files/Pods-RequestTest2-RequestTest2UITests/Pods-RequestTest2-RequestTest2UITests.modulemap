@@ -1,0 +1,6 @@
+framework module Pods_RequestTest2_RequestTest2UITests {
+  umbrella header "Pods-RequestTest2-RequestTest2UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
